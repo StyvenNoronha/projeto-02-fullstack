@@ -1,9 +1,19 @@
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #F5F4F0 ;
+}
 
 .container{
     width: 1120px;
+    margin: 48px auto;
+    padding: 24px;
+}
+img{
+    height: 350px;
 }
